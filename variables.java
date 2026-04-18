@@ -43,6 +43,7 @@ public class variables {
 
         //No Reserved Keywords
         //int class = 22;
+        //class is a reserved keyword in Java, so it cannot be used as a variable name.
 
         //length
         int helloWorld = 100;
