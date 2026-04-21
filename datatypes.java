@@ -28,7 +28,8 @@ public class datatypes {
 
         char firstCharacter = 'A';
         System.out.println("My First Character is: " + firstCharacter);
-        System.out.println("My First Character is: " + (char)(firstCharacter+2));
+        System.out.println("My First Character is: " + (char)(firstCharacter+2) );
+        
     
 
     }
