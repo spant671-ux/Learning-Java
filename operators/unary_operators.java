@@ -1,5 +1,4 @@
-
-public class unaryoperators {
+public class unary_operators {
     public static void main(String[] args) {
 
         int activeUsers = 100;

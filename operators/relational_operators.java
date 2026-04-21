@@ -1,4 +1,4 @@
-public class relationaloperators {
+public class relational_operators {
     public static void main(String[] args) {
 
         int currentStreak = 45;

@@ -1,4 +1,5 @@
-public class logicaloperators {
+
+public class logical_operators {
     public static void main(String[] args) {
 
         boolean completedDSA = true;

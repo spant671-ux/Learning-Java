@@ -1,4 +1,5 @@
-public class operators {
+
+public class arithmetic_operators {
     public static void main(String[] args) {
 
         int solvedThisWeek = 25;
@@ -15,6 +16,5 @@ public class operators {
         System.out.println(projected);
         System.out.println(average);
         System.out.println(remainder);
-
     }
 }
