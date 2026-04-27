@@ -1,22 +1,9 @@
-/**
- * Main.java - Entry Point of the Java Learning Project
- * 
- * This is the first program in the Java learning journey.
- * It demonstrates the basic structure of a Java program:
- *   - Class declaration
- *   - The main() method (program entry point)
- *   - Standard output using System.out.println()
- */
-public class Main{
+// Main.java — Entry point of the Java learning project
+// Demonstrates: class declaration, main method, console output
 
-    /**
-     * The main method — JVM calls this method to start the program.
-     * 
-     * @param args command-line arguments passed during execution (not used here)
-     */
-    public static void main(String[] args){
+public class Main {
 
-        // Print a greeting message to the console
+    public static void main(String[] args) {
         System.out.println("Hello World!");
     }
 }

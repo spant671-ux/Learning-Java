@@ -1,79 +1,55 @@
-/**
- * variables.java - Variable Declaration, Naming Rules & Conventions in Java
- * 
- * This file covers the fundamental rules and best practices for variables:
- * 
- * 1. Declaration vs. Initialization
- *    - Declaration: specifying type and name (no value yet)
- *    - Initialization: assigning a value at the time of declaration
- * 
- * 2. Naming Rules (enforced by the compiler):
- *    - Variable names are CASE-SENSITIVE (age ≠ Age ≠ AGE)
- *    - Must start with: a letter, underscore (_), or dollar sign ($)
- *    - Subsequent characters can also include digits (0-9)
- *    - Reserved keywords (class, int, public, etc.) CANNOT be used as names
- *    - No length limit, but keep names meaningful
- * 
- * 3. Naming Conventions (best practices, not enforced):
- *    - Use camelCase for variable names (e.g., totalMarks, helloWorld)
- *    - Use UPPER_SNAKE_CASE for constants (e.g., DAYS_IN_YEAR)
- */
+// variables.java — Variable Declaration, Naming Rules & Conventions
+//
+// Naming rules (compiler-enforced):
+//   - Case-sensitive (age ≠ Age)
+//   - Must start with: letter, _ , or $
+//   - Can contain digits after the first character
+//   - Reserved keywords (class, int, etc.) cannot be used
+//
+// Conventions (best practice):
+//   - camelCase for variables     → totalMarks
+//   - UPPER_SNAKE_CASE for constants → DAYS_IN_YEAR
+
 public class variables {
-    static void main(){
+    static void main() {
 
-        // =============================================
-        // 1. DECLARATION vs. ASSIGNMENT vs. INITIALIZATION
-        // =============================================
+        // --- 1. Declaration vs Assignment vs Initialization ---
 
-        // Declaration: only the type and name — no value assigned yet
-        int age;
+        int age;                   // declaration — no value yet
+        // System.out.println(age);  // would cause: "variable might not have been initialized"
 
-        // Uncommenting the line below would cause a compile error:
-        // "variable age might not have been initialized"
-        //System.out.println(age);
-
-        // Assignment: giving a value to an already declared variable
-        age = 10;
+        age = 10;                  // assignment — giving a value after declaration
         System.out.println(age);
 
-        // Initialization (define): declaring and assigning in one step
-        int totalMarks = 20;
+        int totalMarks = 20;       // initialization — declare + assign in one step
         System.out.println(totalMarks);
 
-        // =============================================
-        // 2. CASE SENSITIVITY
-        // =============================================
+        // --- 2. Case sensitivity ---
 
-        // Java treats 'weight' and 'WEIGHT' as two completely different variables
         int weight = 80;
-        int WEIGHT = 90 ;
-        System.out.println("weight " +  weight);   // prints 80
-        System.out.println("WEIGHT " +  WEIGHT);   // prints 90
+        int WEIGHT = 90;           // different variable — Java is case-sensitive
+        System.out.println("weight " + weight);
+        System.out.println("WEIGHT " + WEIGHT);
 
-        // =============================================
-        // 3. VALID STARTING CHARACTERS
-        // =============================================
+        // --- 3. Valid starting characters ---
 
-        // Variable names can start with: a letter, underscore, or dollar sign
-        int marks =10;      // starts with a lowercase letter ✓
-        int MARKS=11;       // starts with an uppercase letter ✓
-        int _marks =12;     // starts with an underscore ✓
-        int $marks =13;     // starts with a dollar sign ✓
+        int marks = 10;            // letter
+        int MARKS = 11;            // uppercase letter
+        int _marks = 12;           // underscore
+        int $marks = 13;           // dollar sign
+
         System.out.println(marks);
         System.out.println(MARKS);
         System.out.println(_marks);
         System.out.println($marks);
 
-        // =============================================
-        // 4. VALID SUBSEQUENT CHARACTERS
-        // =============================================
+        // --- 4. Valid subsequent characters ---
 
-        // After the first character, digits (0-9), underscores, and $ are all allowed
-        int height5 =21;        // digit after letters ✓
-        int height_two= 33;     // underscore in the middle ✓
-        int height$12jk=44;     // dollar sign and digits mixed ✓
-        int height_=22;         // ends with underscore ✓
-        int height$= 23;        // ends with dollar sign ✓
+        int height5 = 21;          // digits allowed after first char
+        int height_two = 33;       // underscores in the middle
+        int height$12jk = 44;      // mixed $ and digits
+        int height_ = 22;          // ends with underscore
+        int height$ = 23;          // ends with dollar sign
 
         System.out.println(height5);
         System.out.println(height_two);
@@ -81,38 +57,25 @@ public class variables {
         System.out.println(height_);
         System.out.println(height$);
 
-        // =============================================
-        // 5. RESERVED KEYWORDS CANNOT BE VARIABLE NAMES
-        // =============================================
+        // --- 5. Reserved keywords ---
 
-        // Uncommenting the line below would cause a compile error:
-        // "class" is a reserved keyword in Java
-        //int class = 22;
+        // int class = 22;         // compile error — "class" is reserved
 
-        // =============================================
-        // 6. LENGTH & CAMELCASE CONVENTION
-        // =============================================
+        // --- 6. Length & camelCase convention ---
 
-        // Variable names have no length limit — use descriptive names
-        // Convention: use camelCase for multi-word names
-        int helloWorld = 100;   // camelCase ✓
-        int a=1;                // valid but not descriptive — avoid in real code
-        int b=2;
-        int c=3;
+        int helloWorld = 100;      // camelCase — recommended for multi-word names
+        int a = 1;                 // valid but not descriptive — avoid in real code
+        int b = 2;
+        int c = 3;
+
         System.out.println(helloWorld);
         System.out.println(a);
         System.out.println(b);
         System.out.println(c);
 
-        // =============================================
-        // 7. CONSTANTS
-        // =============================================
+        // --- 7. Constants ---
 
-        // Convention: constants should use UPPER_SNAKE_CASE and be declared with 'final'
-        // (the 'final' keyword is not used here yet — it will be covered later)
-        int Days_In_Year = 365;
+        int Days_In_Year = 365;    // should use UPPER_SNAKE_CASE + 'final' keyword
         System.out.println(Days_In_Year);
-
-
     }
 }
