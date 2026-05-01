@@ -1,6 +1,6 @@
 # ☕ Learning Java
 
-A beginner-friendly Java learning repository covering core fundamentals through hands-on code examples. Each file focuses on a specific topic with practical, well-commented demonstrations — every source file includes a structured header block summarizing the key concepts before the code.
+A beginner-friendly Java learning repository covering core fundamentals through hands-on code examples. Each topic lives in its own folder with practical, well-commented demonstrations — every source file includes a structured header block summarizing the key concepts before the code.
 
 ---
 
@@ -8,9 +8,12 @@ A beginner-friendly Java learning repository covering core fundamentals through 
 
 ```
 Learning Java/
-├── Main.java                          # Hello World – entry point
-├── variables.java                     # Variable rules & naming conventions
-├── datatypes.java                     # Primitive data types
+├── first program/
+│   └── Main.java                      # Hello World – entry point
+├── variables/
+│   └── variables.java                 # Variable rules & naming conventions
+├── datatypes/
+│   └── datatypes.java                 # Primitive data types
 ├── operators/
 │   ├── arithmetic_operators.java      # +, -, *, /, %
 │   ├── assignment_operators.java      # +=, -=, *=, /=, %=
@@ -18,6 +21,8 @@ Learning Java/
 │   ├── logical_operators.java         # &&, ||, !
 │   ├── unary_operators.java           # ++, -- (prefix & postfix)
 │   └── bitwise_operators.java         # &, |, ^, ~, <<, >>
+├── taking input/
+│   └── takinginput.java               # Reading user input with Scanner
 └── Readme.md
 ```
 
@@ -25,13 +30,13 @@ Learning Java/
 
 ## 📖 Topics Covered
 
-### 1. Hello World — `Main.java`
+### 1. Hello World — `first program/Main.java`
 The classic first program. Prints `"Hello World!"` to the console and introduces:
 - Basic structure of a Java **class**
 - The `public static void main(String[] args)` entry point
 - Console output with `System.out.println()`
 
-### 2. Variables — `variables.java`
+### 2. Variables — `variables/variables.java`
 Explores the rules and conventions for declaring variables in Java:
 - **Declaration vs. Assignment vs. Initialization** — `int age;` → `age = 10;` → `int totalMarks = 20;`
 - **Case Sensitivity** — `weight` and `WEIGHT` are two different variables
@@ -41,7 +46,7 @@ Explores the rules and conventions for declaring variables in Java:
 - **Naming Conventions** — `camelCase` for variables, `UPPER_SNAKE_CASE` for constants
 - **Constants** — e.g., `Days_In_Year = 365`
 
-### 3. Data Types — `datatypes.java`
+### 3. Data Types — `datatypes/datatypes.java`
 Covers all 8 primitive data types in Java, grouped by category:
 
 | Category        | Types                            | Size          | Example Values                 |
@@ -89,6 +94,15 @@ Works with binary representations (`6 = 0110`, `3 = 0011`) to demonstrate:
 - AND (`&`), OR (`|`), XOR (`^`), NOT (`~`)
 - Left Shift (`<<` — multiply by 2ⁿ), Right Shift (`>>` — divide by 2ⁿ)
 
+### 5. Taking Input — `taking input/takinginput.java`
+Introduces reading user input from the console:
+- Creating a `Scanner` object with `new Scanner(System.in)`
+- Reading integer input with `sc.nextInt()`
+- Reading large numbers with `BigInteger` and `sc.nextBigInteger()`
+- Reading boolean values with `sc.nextBoolean()`
+- Importing `java.math.BigInteger` for arbitrarily large integers
+- Foundation for interactive programs
+
 ---
 
 ## 🧠 Key Concepts Quick Reference
@@ -104,15 +118,19 @@ Works with binary representations (`6 = 0110`, `3 = 0011`) to demonstrate:
 | Short-circuit evaluation   | `false && expr`                  | `expr` is never evaluated                |
 | Prefix vs. postfix         | `++x` vs. `x++`                  | Increment timing differs                 |
 | Bitwise NOT                | `~6` → `-7`                      | Equals `-(x+1)` for positive integers    |
+| Read input                 | `sc.nextInt()`                   | Requires `Scanner` import                |
+| BigInteger input           | `sc.nextBigInteger()`            | Requires `java.math.BigInteger` import   |
+| Boolean input              | `sc.nextBoolean()`               | Reads `true` or `false` from console     |
 
 ---
 
 ## 🚀 How to Run
 
-Make sure you have **Java JDK** installed. Then compile and run any file:
+Make sure you have **Java JDK** installed. Then compile and run any file from its directory:
 
 ```bash
 # Example: Run the Hello World program
+cd "first program"
 javac Main.java
 java Main
 
@@ -120,6 +138,11 @@ java Main
 cd operators
 javac arithmetic_operators.java
 java arithmetic_operators
+
+# Example: Run the input program
+cd "taking input"
+javac takinginput.java
+java takinginput
 ```
 
 ---
@@ -130,6 +153,7 @@ java arithmetic_operators
 - [x] Variables
 - [x] Data Types
 - [x] Operators (Arithmetic, Assignment, Relational, Logical, Unary, Bitwise)
+- [x] Taking Input (Scanner)
 - [ ] Control Flow (if-else, switch)
 - [ ] Loops (for, while, do-while)
 - [ ] Arrays
