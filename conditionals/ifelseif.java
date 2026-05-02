@@ -1,17 +1,35 @@
 public class ifelseif {
     static void main() {
 
-        int accuracy = 78;
+            // int accuracy = 78;
 
-        if(accuracy>=90){
-            System.out.println("Excellent");
-        }else if (accuracy>=75){
-            System.out.println("Good");
-        }else if (accuracy >=60){
-            System.out.println("Average");
-        }else{
-            System.out.println("Needs Improvement");
-        }
+            // if(accuracy>=90){
+            //     System.out.println("Excellent");
+            // }else if (accuracy>=75){
+            //     System.out.println("Good");
+            // }else if (accuracy >=60){
+            //     System.out.println("Average");
+            // }else{
+            //     System.out.println("Needs Improvement");
+            // }
+            int day = 3;
+
+            if (day ==1){
+                System.out.println("Monday");
+            }else if (day ==2){
+                System.out.println("Tuesday");
+            }else if (day ==3){
+                System.out.println("Wednesday");
+            }else if (day ==4){
+                System.out.println("Thursday");
+            }else if (day ==5){
+                System.out.println("Friday");
+            }else if (day ==6){
+                System.out.println("Saturday");
+            }else{
+                System.out.println("Sunday");
+            }
+            
     }
 }
         
