@@ -23,6 +23,13 @@ Learning Java/
 │   └── bitwise_operators.java         # &, |, ^, ~, <<, >>
 ├── taking input/
 │   └── takinginput.java               # Reading user input with Scanner
+├── conditionals/
+│   ├── ifconditional.java             # Basic if statement
+│   ├── ifelse.java                    # if-else branching
+│   ├── ifelseif.java                  # if-else-if ladder
+│   ├── nestedifelse.java              # Nested if-else blocks
+│   ├── switchoperator.java            # switch-case statement
+│   └── ternary.java                   # Ternary (conditional) operator
 └── Readme.md
 ```
 
@@ -103,6 +110,46 @@ Introduces reading user input from the console:
 - Importing `java.math.BigInteger` for arbitrarily large integers
 - Foundation for interactive programs
 
+### 6. Conditionals — `conditionals/`
+
+#### 6a. If Statement — `ifconditional.java`
+Demonstrates the basic `if` conditional:
+- Executes a block only when the condition is `true`
+- Examples: checking daily practice consistency (`>= 10`) and voting eligibility (`age >= 18`)
+- If the condition is `false`, the block is simply skipped
+
+#### 6b. If-Else — `ifelse.java`
+Adds an alternate path when the condition is `false`:
+- `if` block runs when the condition is met; `else` block runs otherwise
+- Example: pass/fail check — prints `"Pass"` if `score >= 50`, otherwise `"Fail"`
+
+#### 6c. If-Else-If Ladder — `ifelseif.java`
+Chains multiple conditions to select one of many outcomes:
+- Conditions are evaluated top-to-bottom; the first `true` branch executes
+- Example: accuracy grading — `>= 90` → Excellent, `>= 75` → Good, `>= 60` → Average, else → Needs Improvement
+- Only **one** branch executes, even if multiple conditions could be true
+
+#### 6d. Nested If-Else — `nestedifelse.java`
+Places `if-else` blocks inside other `if-else` blocks for multi-level decisions:
+- Outer condition gates access to inner conditions
+- Example: checks `hasSubscription` first, then evaluates `solvedProblems >= 200` to unlock an advanced sheet or suggest more practice
+- Useful when decisions depend on a hierarchy of criteria
+
+#### 6e. Switch Statement — `switchoperator.java`
+Selects one block of code to execute from many constant-value options:
+- Compares a single variable against multiple `case` values
+- `break` exits the switch block — without it, execution "falls through" to the next case
+- `default` is optional and acts as a catch-all (like `else`)
+- Works with: `int`, `char`, `String`, `byte`, `short`, and enums
+- **Does NOT** work with: `float`, `double`, `long`, or `boolean`
+- Example: maps a user-entered day number (1–7) to its weekday name
+
+#### 6f. Ternary Operator — `ternary.java`
+A one-line shorthand for simple `if-else` assignments:
+- Syntax: `variable = (condition) ? valueIfTrue : valueIfFalse;`
+- Best used for simple assignments — prefer `if-else` for complex logic
+- Example: sets `status` to `"Active"` if `streakDays >= 30`, otherwise `"Inactive"`
+
 ---
 
 ## 🧠 Key Concepts Quick Reference
@@ -121,6 +168,12 @@ Introduces reading user input from the console:
 | Read input                 | `sc.nextInt()`                   | Requires `Scanner` import                |
 | BigInteger input           | `sc.nextBigInteger()`            | Requires `java.math.BigInteger` import   |
 | Boolean input              | `sc.nextBoolean()`               | Reads `true` or `false` from console     |
+| If statement               | `if (x >= 10) { ... }`          | Block runs only when condition is true   |
+| If-else                    | `if (x) { ... } else { ... }`   | Provides an alternate path               |
+| If-else-if ladder          | `if ... else if ... else`        | First true branch executes               |
+| Nested if-else             | `if { if { } else { } }`        | Multi-level decision hierarchy           |
+| Switch statement           | `switch (x) { case 1: ... }`    | Matches one value from many constants    |
+| Ternary operator           | `(cond) ? a : b`                 | Inline if-else for simple assignments    |
 
 ---
 
@@ -143,6 +196,11 @@ java arithmetic_operators
 cd "taking input"
 javac takinginput.java
 java takinginput
+
+# Example: Run a conditional file
+cd conditionals
+javac ifelseif.java
+java ifelseif
 ```
 
 ---
@@ -154,7 +212,7 @@ java takinginput
 - [x] Data Types
 - [x] Operators (Arithmetic, Assignment, Relational, Logical, Unary, Bitwise)
 - [x] Taking Input (Scanner)
-- [ ] Control Flow (if-else, switch)
+- [x] Conditionals (if, if-else, if-else-if, nested if-else, switch, ternary)
 - [ ] Loops (for, while, do-while)
 - [ ] Arrays
 - [ ] Strings
