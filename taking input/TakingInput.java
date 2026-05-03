@@ -2,7 +2,7 @@ import java.math.BigInteger;
 import java.util.Scanner;
 
 public class takinginput {
-    static void main() {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the value for firstnum: ");
         int firstnum = sc.nextInt();
@@ -18,7 +18,7 @@ public class takinginput {
 
         boolean flag = sc.nextBoolean();
         System.out.println("Boolean value : " + flag);
-    }
 
-    
+        sc.close();
+    }
 }

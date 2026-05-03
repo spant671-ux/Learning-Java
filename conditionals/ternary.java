@@ -17,7 +17,7 @@
 
 public class ternary {
 
-    static void main() {
+    public static void main(String[] args) {
 
         // ─── Example: Streak status check ──────────────────────────────
 

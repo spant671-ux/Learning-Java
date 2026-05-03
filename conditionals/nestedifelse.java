@@ -19,7 +19,7 @@
 
 public class nestedifelse {
 
-    static void main() {
+    public static void main(String[] args) {
 
         // ─── Example: Subscription + problem count check ───────────────
 

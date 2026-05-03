@@ -15,7 +15,7 @@
 
 public class ifelse {
 
-    static void main() {
+    public static void main(String[] args) {
 
         // ─── Example: Pass or Fail based on score ──────────────────────
 

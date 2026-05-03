@@ -6,7 +6,7 @@
 //   Other    →  boolean (true/false), char (single character)
 
 public class datatypes {
-    static void main() {
+    public static void main(String[] args) {
 
         // --- Integer types ---
 

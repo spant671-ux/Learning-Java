@@ -19,7 +19,7 @@
 
 public class ifelseif {
 
-    static void main() {
+    public static void main(String[] args) {
 
         // ─── Example: Accuracy grading system ──────────────────────────
 

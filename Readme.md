@@ -30,6 +30,8 @@ Learning Java/
 │   ├── nestedifelse.java              # Nested if-else blocks
 │   ├── switchoperator.java            # switch-case statement
 │   └── ternary.java                   # Ternary (conditional) operator
+├── loops/
+│   └── forloop.java                   # for loop, nested loops, break & continue
 └── Readme.md
 ```
 

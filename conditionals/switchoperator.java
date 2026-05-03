@@ -26,7 +26,7 @@ import java.util.Scanner;
 
 public class switchoperator {
 
-    static void main() {
+    public static void main(String[] args) {
 
         // ─── Example: Day of the week from user input ──────────────────
         // Prompt the user

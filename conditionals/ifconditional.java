@@ -12,7 +12,7 @@
 
 public class ifconditional {
 
-    static void main() {
+    public static void main(String[] args) {
 
         // ─── Example 1: Daily practice check ───────────────────────────
 
@@ -21,7 +21,7 @@ public class ifconditional {
         // Checks if dailyPractice is 10 or more
         // 12 >= 10 is true → the block EXECUTES
         if (dailyPractice >= 10) {
-            System.out.println("Good Conistency");
+            System.out.println("Good Consistency");
         }
 
         // ─── Example 2: Voting eligibility ─────────────────────────────
