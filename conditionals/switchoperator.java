@@ -59,11 +59,16 @@ public class switchoperator {
             case 6:
                 System.out.println("Saturday");
                 break;
-            default:
-                // Runs if day doesn't match any case (1–6)
-                // Covers day = 7 and any invalid input
+            case 7:
                 System.out.println("Sunday");
                 break;
+            default:
+                // Runs if day doesn't match any case (1–7)
+                System.out.println("Invalid day");
+                break;
         }
+
+        // Always close the scanner when done
+        sc.close();
     }
 }
