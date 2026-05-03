@@ -181,28 +181,24 @@ A one-line shorthand for simple `if-else` assignments:
 
 ## 🚀 How to Run
 
-Make sure you have **Java JDK** installed. Then compile and run any file from its directory:
+Make sure you have **Java JDK** installed. To keep your project clean, you can compile the files into the `out` folder and run them from there. Run these commands from the root of the project:
 
 ```bash
 # Example: Run the Hello World program
-cd "first program"
-javac Main.java
-java Main
+javac -d out "first program/Main.java"
+java -cp out Main
 
 # Example: Run an operator file
-cd operators
-javac arithmetic_operators.java
-java arithmetic_operators
+javac -d out "operators/arithmetic_operators.java"
+java -cp out arithmetic_operators
 
 # Example: Run the input program
-cd "taking input"
-javac takinginput.java
-java takinginput
+javac -d out "taking input/takinginput.java"
+java -cp out takinginput
 
 # Example: Run a conditional file
-cd conditionals
-javac ifelseif.java
-java ifelseif
+javac -d out "conditionals/ifelseif.java"
+java -cp out ifelseif
 ```
 
 ---
