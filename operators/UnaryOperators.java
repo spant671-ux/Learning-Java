@@ -7,7 +7,7 @@
 //
 // Other unary operators: + (positive), - (negate), ! (logical NOT), ~ (bitwise NOT)
 
-public class unary_operators {
+public class UnaryOperators {
     public static void main(String[] args) {
 
         int activeUsers = 100;

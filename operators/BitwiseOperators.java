@@ -7,7 +7,7 @@
 //   <<  Left shift   → multiply by 2^n
 //   >>  Right shift  → divide by 2^n
 
-public class bitwise_operators {
+public class BitwiseOperators {
     public static void main(String[] args) {
 
         int x = 6;   // binary: 0110

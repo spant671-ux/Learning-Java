@@ -14,7 +14,7 @@
 //   - break — exits the loop entirely when a condition is met
 //   - continue — skips the current iteration and moves to the next
 
-public class forloop {
+public class ForLoop {
 
     public static void main(String[] args) {
         //first loop
@@ -47,6 +47,7 @@ public class forloop {
 
         for(int i =1; i<=10; i++){
             if(i==5){
+                
                 continue;
             }
             System.out.println(i);

@@ -10,7 +10,7 @@
 //   - camelCase for variables     → totalMarks
 //   - UPPER_SNAKE_CASE for constants → DAYS_IN_YEAR
 
-public class variables {
+public class Variables {
     public static void main(String[] args) {
 
         // --- 1. Declaration vs Assignment vs Initialization ---

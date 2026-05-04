@@ -17,7 +17,7 @@
 // Important: Order matters! Place stricter conditions first
 // (e.g., >=90 before >=75), otherwise a broader check will catch values early.
 
-public class ifelseif {
+public class IfElseIf {
 
     public static void main(String[] args) {
 

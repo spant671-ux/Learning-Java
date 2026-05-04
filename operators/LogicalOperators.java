@@ -8,7 +8,7 @@
 //   && stops if the first operand is false
 //   || stops if the first operand is true
 
-public class logical_operators {
+public class LogicalOperators {
     public static void main(String[] args) {
 
         boolean completedDSA = true;

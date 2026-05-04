@@ -5,7 +5,7 @@
 //
 // Shorthand: a += b  is equivalent to  a = a + b  (same pattern for all)
 
-public class assignment_operators {
+public class AssignmentOperators {
     public static void main(String[] args) {
 
         int ratingPoints = 100;

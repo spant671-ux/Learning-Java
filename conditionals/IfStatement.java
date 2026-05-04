@@ -10,7 +10,7 @@
 //
 // The condition inside the parentheses must evaluate to a boolean (true/false).
 
-public class ifconditional {
+public class IfStatement {
 
     public static void main(String[] args) {
 
