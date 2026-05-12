@@ -1,0 +1,13 @@
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# Other IDEs & Tools
+.vscode/
+.junie/
+*.class
+
+# OS Generated
+.DS_Store
+Thumbs.db
