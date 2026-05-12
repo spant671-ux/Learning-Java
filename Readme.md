@@ -187,6 +187,29 @@ Prints a parallelogram (slanted shape) using leading spaces and stars:
 - Second inner loop prints `n` stars in every row
 - Decreasing spaces + fixed stars creates the parallelogram effect
 
+#### 8e. Inverted Right-Angled Triangle — `Pattern5.java`
+Prints an inverted staircase where stars decrease each row:
+- Inner loop runs from 1 to `(n - row + 1)`
+- Shows how to count backwards or reduce elements per row
+
+#### 8f. Pyramid — `Pattern6.java`
+Prints a centered pyramid using spaces and stars:
+- First inner loop prints decreasing spaces `(n - row)`
+- Second inner loop prints odd number of stars `(2 * row - 1)`
+- Combines spaces and math formula for centered shapes
+
+#### 8g. Inverted Pyramid — `Pattern7.java`
+Prints an upside-down centered pyramid:
+- First inner loop prints increasing spaces `(row - 1)`
+- Second inner loop prints decreasing odd number of stars `(2 * n - 2 * row + 1)`
+- The inverse logic of the standard pyramid pattern
+
+#### 8h. Hollow Rectangle — `Pattern8.java`
+Prints a 4×6 rectangle outline (hollow inside):
+- Uses `if-else` inside nested loops to check boundaries
+- Prints stars only on the first/last row or first/last column
+- Prints spaces for the hollow interior
+
 ---
 
 ## 🧠 Key Concepts Quick Reference
@@ -217,6 +240,9 @@ Prints a parallelogram (slanted shape) using leading spaces and stars:
 | Solid rectangle pattern    | Nested loop, both run to `n`    | Rows × Columns grid of stars             |
 | Triangle pattern           | Inner loop limit = `i`          | Stars increase per row                   |
 | Parallelogram pattern      | Leading spaces + stars           | `(n-i)` spaces then `n` stars            |
+| Inverted triangle pattern  | Loop limit = `n - row + 1`       | Stars decrease per row                   |
+| Pyramid pattern            | Spaces then `(2*row-1)` stars    | Centered odd-numbered stars              |
+| Hollow rectangle pattern   | `if` boundary check              | Stars on borders, spaces inside          |
 
 ---
 
@@ -257,7 +283,7 @@ java -cp out Pattern1
 - [x] Taking Input (Scanner)
 - [x] Conditionals (if, if-else, if-else-if, nested if-else, switch, ternary)
 - [x] Loops (for, nested loops, break, continue)
-- [x] Pattern Printing (solid rectangle, fixed rectangle, triangle, parallelogram)
+- [x] Pattern Printing (solid rectangle, fixed rectangle, triangle, parallelogram, inverted triangle, pyramid, inverted pyramid, hollow rectangle)
 - [ ] Arrays
 - [ ] Strings
 - [ ] Methods / Functions
