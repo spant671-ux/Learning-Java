@@ -1,3 +1,12 @@
+/**
+ * Pattern 7: Inverted Pyramid Pattern
+ * 
+ * Example Output (for n = 4):
+ *  * * * * * * 
+ *   * * * * * 
+ *     * * * 
+ *       * 
+ */
 public class Pattern7{
     static void main(){
         int n=4; // Number of rows for the inverted pyramid pattern

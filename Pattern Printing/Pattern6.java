@@ -1,3 +1,13 @@
+/**
+ * Pattern 6: Pyramid Pattern
+ * 
+ * Example Output (for n = 5):
+ *         * 
+ *       * * * 
+ *     * * * * * 
+ *   * * * * * * * 
+ *  * * * * * * * * 
+ */
 public class Pattern6 {
     static void main(){
         int n = 5; // Number of rows for the pyramid pattern

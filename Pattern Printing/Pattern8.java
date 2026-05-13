@@ -1,9 +1,16 @@
-// Pattern8.java - Hollow Rectangle Pattern
-//
-// Prints a 4x6 rectangle outline with a hollow interior.
-// The first and last rows are completely filled with stars.
-// The middle rows only have stars at the first and last columns.
-
+/**
+ * Pattern 8: Hollow Rectangle Pattern
+ * 
+ * Prints a 4x6 rectangle outline with a hollow interior.
+ * The first and last rows are completely filled with stars.
+ * The middle rows only have stars at the first and last columns.
+ * 
+ * Example Output (for n = 4, cols = 6):
+ *  * * * * * * 
+ *  *         * 
+ *  *         * 
+ *  * * * * * * 
+ */
 public class Pattern8 {
     public static void main(String[] args) {
         int n = 4; // Number of rows for the hollow rectangle pattern

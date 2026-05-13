@@ -1,3 +1,13 @@
+/**
+ * Pattern 5: Inverted Right-Angled Triangle
+ * 
+ * Example Output (for n = 5):
+ *  * * * * * 
+ *  * * * * 
+ *  * * * 
+ *  * * 
+ *  * 
+ */
 public class Pattern5{
     static void main(){
         int n = 5; // Number of rows for the inverted pattern
