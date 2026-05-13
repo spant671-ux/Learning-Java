@@ -8,7 +8,7 @@ public class Pattern6 {
             // First inner loop: Prints the leading spaces
             // We need decreasing spaces as we go down (n - row)
             for (int col = 1; col <= n - row; col++){
-                System.out.print(" ");
+                System.out.print("  ");
             }
             
             // Second inner loop: Prints the stars
