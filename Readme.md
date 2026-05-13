@@ -36,7 +36,12 @@ Learning Java/
 │   ├── Pattern1.java                  # Solid rectangle (square) pattern
 │   ├── Pattern2.java                  # Fixed-size rectangle pattern
 │   ├── Pattern3.java                  # Right-angled triangle (staircase) pattern
-│   └── Pattern4.java                  # Parallelogram pattern
+│   ├── Pattern4.java                  # Parallelogram pattern
+│   ├── Pattern5.java                  # Inverted right-angled triangle pattern
+│   ├── Pattern6.java                  # Pyramid pattern
+│   ├── Pattern7.java                  # Inverted pyramid pattern
+│   ├── Pattern8.java                  # Hollow rectangle pattern
+│   └── Pattern9.java                  # Hollow right-angled triangle pattern
 └── Readme.md
 ```
 
@@ -210,6 +215,12 @@ Prints a 4×6 rectangle outline (hollow inside):
 - Prints stars only on the first/last row or first/last column
 - Prints spaces for the hollow interior
 
+#### 8i. Hollow Right-Angled Triangle — `Pattern9.java`
+Prints a hollow staircase triangle:
+- Uses `if-else` inside nested loops to check boundaries
+- First and last rows print solid stars
+- Middle rows print stars at the first and last positions with spaces inside
+
 ---
 
 ## 🧠 Key Concepts Quick Reference
@@ -243,6 +254,7 @@ Prints a 4×6 rectangle outline (hollow inside):
 | Inverted triangle pattern  | Loop limit = `n - row + 1`       | Stars decrease per row                   |
 | Pyramid pattern            | Spaces then `(2*row-1)` stars    | Centered odd-numbered stars              |
 | Hollow rectangle pattern   | `if` boundary check              | Stars on borders, spaces inside          |
+| Hollow triangle pattern    | `if` boundary check with spaces  | Stars on borders, spaces inside          |
 
 ---
 
@@ -283,7 +295,7 @@ java -cp out Pattern1
 - [x] Taking Input (Scanner)
 - [x] Conditionals (if, if-else, if-else-if, nested if-else, switch, ternary)
 - [x] Loops (for, nested loops, break, continue)
-- [x] Pattern Printing (solid rectangle, fixed rectangle, triangle, parallelogram, inverted triangle, pyramid, inverted pyramid, hollow rectangle)
+- [x] Pattern Printing (solid rectangle, fixed rectangle, triangle, parallelogram, inverted triangle, pyramid, inverted pyramid, hollow rectangle, hollow triangle)
 - [ ] Arrays
 - [ ] Strings
 - [ ] Methods / Functions
