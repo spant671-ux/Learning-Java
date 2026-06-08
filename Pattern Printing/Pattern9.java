@@ -1,16 +1,16 @@
 /**
  * Pattern 9: Hollow Right-Angled Triangle Pattern
- * 
+ *
  * Prints a staircase pattern with a hollow interior.
  * First two rows and the last row are completely filled with stars.
  * The middle rows only have stars at the boundaries.
- * 
+ *
  * Example Output (for n = 5):
- *  * 
- *  * * 
- *  *   * 
- *  *     * 
- *  * * * * * 
+ *  *
+ *  * *
+ *  *   *
+ *  *     *
+ *  * * * * *
  */
 public class Pattern9 {
     static void main(){
@@ -47,4 +47,7 @@ public class Pattern9 {
             System.out.println();
         }
     }
+}
+
+void main() {
 }
