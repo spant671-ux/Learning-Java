@@ -48,6 +48,3 @@ public class Pattern9 {
         }
     }
 }
-
-void main() {
-}
