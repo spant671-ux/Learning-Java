@@ -6,13 +6,13 @@
  * and an inverted pyramid (lower half).
  *
  * Example Output (for n = 4):
- *       * 
- *     * * * 
- *   * * * * * 
- * * * * * * * * 
- *   * * * * * 
- *     * * * 
- *       * 
+ *        * 
+ *      * * * 
+ *    * * * * * 
+ *  * * * * * * * 
+ *    * * * * * 
+ *      * * * 
+ *        * 
  */
 public class Pattern11 {
     static void main() {
