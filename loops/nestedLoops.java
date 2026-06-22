@@ -13,7 +13,7 @@
 //   * * *
 //   * * *
 
-public class NestedLoops {
+public class nestedLoops {
     public static void main(String[] args) {
 
         // ─── Example: Print a 3×3 star pattern ──────────────────────────

@@ -10,7 +10,7 @@
 //
 // Use when the loop body must run at least once (e.g., menus, input validation).
 
-public class DoWhileLoop{
+public class doWhileLoop{
     static void main() {
 
         // ─── Example: Revision rounds ───────────────────────────────────

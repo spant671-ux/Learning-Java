@@ -14,7 +14,7 @@
 //   - break — exits the loop entirely when a condition is met
 //   - continue — skips the current iteration and moves to the next
 
-public class ForLoop {
+public class forLoop {
 
     public static void main(String[] args) {
         //first loop

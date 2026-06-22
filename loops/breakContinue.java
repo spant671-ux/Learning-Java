@@ -8,7 +8,7 @@
 //   - break:    stop searching once the answer is found
 //   - continue: skip unwanted values without stopping the loop
 
-public class BreakContinue {
+public class breakContinue {
     void main() {
 
         // ─── Example 1 (commented out): break statement ─────────────────
