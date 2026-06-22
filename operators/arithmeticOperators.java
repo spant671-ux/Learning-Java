@@ -5,7 +5,7 @@
 //
 // Note: int / int = int (decimal part is truncated, e.g. 25/7 = 3)
 
-public class ArithmeticOperators {
+public class arithmeticOperators {
     public static void main(String[] args) {
 
         int solvedThisWeek = 25;

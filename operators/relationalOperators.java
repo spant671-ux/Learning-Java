@@ -6,7 +6,7 @@
 //
 // Returns boolean (true/false). For objects, use .equals() instead of ==.
 
-public class RelationalOperators {
+public class relationalOperators {
     public static void main(String[] args) {
 
         int currentStreak = 45;
