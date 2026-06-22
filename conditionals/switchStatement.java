@@ -24,7 +24,7 @@
 
 import java.util.Scanner;
 
-public class SwitchStatement {
+public class switchStatement {
 
     public static void main(String[] args) {
 

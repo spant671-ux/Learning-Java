@@ -17,7 +17,7 @@
 // Tip: Too many nesting levels make code hard to read.
 //      Consider refactoring deeply nested logic into separate methods.
 
-public class NestedIfElse {
+public class nestedIfElse {
 
     public static void main(String[] args) {
 

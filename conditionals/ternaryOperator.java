@@ -15,7 +15,7 @@
 //
 // Best used for simple assignments. For complex logic, prefer if-else for readability.
 
-public class TernaryOperator {
+public class ternaryOperator {
 
     public static void main(String[] args) {
 

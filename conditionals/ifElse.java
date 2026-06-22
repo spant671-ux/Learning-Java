@@ -13,7 +13,7 @@
 //       // runs when condition is false
 //   }
 
-public class IfElse {
+public class ifElse {
 
     public static void main(String[] args) {
 
