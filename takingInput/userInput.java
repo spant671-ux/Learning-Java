@@ -14,7 +14,7 @@
 import java.math.BigInteger;   // Supports integers larger than long can hold
 import java.util.Scanner;      // Provides methods to read console input
 
-public class UserInput {
+public class userInput {
     public static void main(String[] args) {
 
         // Create a Scanner object to read from standard input (keyboard)
