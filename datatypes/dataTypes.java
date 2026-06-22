@@ -5,7 +5,7 @@
 //   Decimal  →  float (4B, suffix 'f'), double (8B, default)
 //   Other    →  boolean (true/false), char (single character)
 
-public class DataTypes {
+public class dataTypes {
     public static void main(String[] args) {
 
         // --- Integer types ---
