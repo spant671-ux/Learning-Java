@@ -8,7 +8,7 @@
  *   *           * 
  *  * * * * * * * *
  */
-public class Pattern10 {
+public class pattern10 {
      static void main() {
         int n = 5; // Number of rows
         

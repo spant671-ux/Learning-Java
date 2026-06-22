@@ -11,7 +11,7 @@
  *  *         * 
  *  * * * * * * 
  */
-public class Pattern8 {
+public class pattern8 {
     public static void main(String[] args) {
         int n = 4; // Number of rows for the hollow rectangle pattern
 

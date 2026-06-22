@@ -14,7 +14,7 @@
 //   - Inner loop (j) runs from 1 to i → so row 1 gets 1 star, row 2 gets 2, etc.
 //   - The key difference from a rectangle: the inner loop's limit is 'i' (not 'n')
 
-public class Pattern3 {
+public class pattern3 {
 
     public static void main(String[] args) {
         int i, j;

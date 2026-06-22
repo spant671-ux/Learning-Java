@@ -8,7 +8,7 @@
  *   * * * * * * * 
  *  * * * * * * * * 
  */
-public class Pattern6 {
+public class pattern6 {
     static void main(){
         int n = 5; // Number of rows for the pyramid pattern
         

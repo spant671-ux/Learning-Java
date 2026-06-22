@@ -12,7 +12,7 @@
  *  *     *
  *  * * * * *
  */
-public class Pattern9 {
+public class pattern9 {
     static void main(){
         int n = 5; // Number of rows for the hollow right-angled triangle
 

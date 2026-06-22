@@ -7,7 +7,7 @@
  *     * * * 
  *       * 
  */
-public class Pattern7{
+public class pattern7{
     static void main(){
         int n=4; // Number of rows for the inverted pyramid pattern
 

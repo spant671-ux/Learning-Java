@@ -12,7 +12,7 @@
 //   - Inner loop (j) controls the columns → prints n stars per row
 //   - System.out.println() after the inner loop moves to the next line
 
-public class Pattern1 {
+public class pattern1 {
     public static void main(String[] args) {
         int i, j;
         int n = 8; // size of the square grid

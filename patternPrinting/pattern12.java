@@ -14,7 +14,7 @@
  *      *   * 
  *        * 
  */
-public class Pattern12 {
+public class pattern12 {
     static void main() {
         int n = 4; // Number of rows for the upper half
 

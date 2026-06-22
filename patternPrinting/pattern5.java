@@ -8,7 +8,7 @@
  *  * * 
  *  * 
  */
-public class Pattern5{
+public class pattern5{
     static void main(){
         int n = 5; // Number of rows for the inverted pattern
         

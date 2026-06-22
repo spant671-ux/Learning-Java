@@ -18,7 +18,7 @@
 //   - Second inner loop (j) prints n stars in every row
 //   - Combining decreasing spaces + fixed stars creates the parallelogram
 
-public class Pattern4 {
+public class pattern4 {
     static void main() {
         int i, j;
         int n = 5; // number of rows and columns

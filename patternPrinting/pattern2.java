@@ -12,7 +12,7 @@
 //   - Inner loop (j) controls the columns → prints 5 stars per row
 //   - Unlike Pattern1, row count and column count are different
 
-public class Pattern2 {
+public class pattern2 {
     static void main() {
         int i, j;
         int n = 3; // number of rows
