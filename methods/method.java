@@ -1,4 +1,4 @@
-public class Method {
+public class method {
     /**
      * Prints the multiplication table of 2 from 1 to 10.
      */

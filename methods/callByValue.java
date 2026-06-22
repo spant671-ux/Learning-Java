@@ -1,4 +1,4 @@
-public class CallByValue {
+public class callByValue {
     static void solve(int num){
         System.out.println("inside solve :"+ num);
         num= num*10;

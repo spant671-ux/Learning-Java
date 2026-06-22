@@ -1,4 +1,4 @@
-public class ReturnType{
+public class returnType{
     static void printMultiplication(int a, int b){
         int ans = (a*b);
         System.out.println("Result: "+ans);

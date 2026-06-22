@@ -1,4 +1,4 @@
-public class VariableScoping {
+public class variableScoping {
     static int value = 1;
     static void printMultiples(){
         int value= 20;
