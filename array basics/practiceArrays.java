@@ -1,17 +1,26 @@
 public class practiceArrays {
     static void main(){
 
-        int arr[] = {3, 2, -5, 21, 10};
+        int arr[]= {3, 2, -5, 21, 10};
         int n= arr.length;
-        int maxValue = arr[0];
-
+        int minValue = arr[0];
         for(int i=0; i<n; i++){
-            if(arr[i] > maxValue){
-                //update maxValue
-                maxValue = arr[i];
+            if(minValue>arr[i]){
+                minValue=arr[i];
             }
         }
-        System.out.println(maxValue);
+        System.out.println(minValue);
+//        int arr[] = {3, 2, -5, 21, 10};
+//        int n= arr.length;
+//        int maxValue = arr[0];
+//
+//        for(int i=0; i<n; i++){
+//            if(arr[i] < minValue){
+//                //update maxValue
+//                maxValue = arr[i];
+//            }
+//        }
+//        System.out.println(maxValue);
 //        int arr[] = {1, 2, 3, 4, 5};
 //        int n= arr.length;
 //        int sum =0;
