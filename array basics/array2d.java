@@ -27,8 +27,9 @@ public class array2d{
         //traversal in 2d array
         for(int rowIndex= 0; rowIndex<= brr.length-1; rowIndex++){
             for(int colIndex=0; colIndex<=brr[rowIndex].length-1; colIndex++){
-                System.out.println(brr[rowIndex][colIndex]);
+                System.out.print(brr[rowIndex][colIndex] + " ") ;
             }
+            System.out.println();
         }
     }
 }
