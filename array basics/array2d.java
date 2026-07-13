@@ -1,27 +1,61 @@
 import java.util.Scanner;
+import java.util.jar.JarOutputStream;
+
 public class array2d{
     static void main(){
 
-        int arr[][] = new int[3][4];
+        int arr[][]= {
+                {1,2,3},
+                {21,20,19}
+        };
+        int maxValue = arr[0][0];
 
-        Scanner sc = new Scanner(System.in);
-        //input
-
-        for(int i = 0 ; i<=arr.length-1; i++){
-            for( int j = 0 ; j<=arr[i].length-1; j++){
-                System.out.println("Provide value for row = "+i+ "and value for column = "+j );
-                arr[i][j] = sc.nextInt();
+        for(int i= 0; i< arr.length; i++){
+            for(int j= 0; j< arr[i].length; j++){
+                if(arr[i][j]>maxValue){
+                    maxValue=arr[i][j];
+                }
             }
         }
+        System.out.println(maxValue);
 
-        //print
+//        int product = 1;
+//        for(int i= 0; i<arr.length; i++){
+//            for(int j=0; j<arr[i].length; j++ ){
+//                int value = arr[i][j];
+//                product= product*value;
+//            }
+//        }
+//        System.out.println(product);
+//        int sum = 0;
+//        for (int i = 0 ; i< arr.length; i++){
+//            for (int j= 0; j< arr[i].length; j++){
+//                int value= arr[i][j];
+//                sum= sum+value;
+//            }
+//        }
+//        System.out.println(sum);
 
-        for(int rowIndex= 0; rowIndex<= arr.length-1; rowIndex++){
-           for(int colIndex=0; colIndex<=arr[rowIndex].length-1; colIndex++){
-               System.out.print(arr[rowIndex][colIndex] + " ") ;
-            }
-            System.out.println();
-        }
+//        int arr[][] = new int[3][4];
+//
+//        Scanner sc = new Scanner(System.in);
+//        //input
+//
+//        for(int i = 0 ; i<=arr.length-1; i++){
+//            for( int j = 0 ; j<=arr[i].length-1; j++){
+//                System.out.println("Provide value for row = "+i+ "and value for column = "+j );
+//                arr[i][j] = sc.nextInt();
+//            }
+//        }
+//
+//        //print
+//
+//        for(int rowIndex= 0; rowIndex<= arr.length-1; rowIndex++){
+//           for(int colIndex=0; colIndex<=arr[rowIndex].length-1; colIndex++){
+//               System.out.print(arr[rowIndex][colIndex] + " ") ;
+//            }
+//            System.out.println();
+//        }
 
 
 
